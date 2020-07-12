@@ -13,6 +13,11 @@ class Product{
 		this.name = inputName;
 		this.price = inputPrice;
 	}
+	
+	@Override
+	public String toString() {
+		return this.id + " " + this.name + " " + this.price;
+	}
 }
 
 
